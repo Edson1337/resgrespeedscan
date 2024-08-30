@@ -1,0 +1,50 @@
+services:
+  # anime_vault_csr:
+  #   image: edsonmoreira/anime_vault:csr
+  #   ports:
+  #     - "3001:3001"
+
+  # anime_vault_ssr:
+  #   image: edsonmoreira/anime_vault:ssr
+  #   ports:
+  #     - "3000:3000"
+
+  # mantine_admin_csr:
+  #   image: edsonmoreira/mantine-admin:csr
+  #   ports:
+  #     - "3005:3005"
+
+  # mantine_admin_ssr:
+  #   image: edsonmoreira/mantine-admin:ssr
+  #   ports:
+  #     - "3004:3004"
+
+  video_compress_csr:
+    image: edsonmoreira/video-compress:csr
+    ports:
+      - "3007:3007"
+
+  video_compress_ssr:
+    image: edsonmoreira/video-compress:ssr
+    ports:
+      - "3006:3006"
+
+  # folio_csr:
+  #   image: edsonmoreira/folio:csr
+  #   ports:
+  #     - "3003:3003"
+
+  # folio_ssr:
+  #   image: edsonmoreira/folio:ssr
+  #   ports:
+  #     - "3002:3002"
+
+  # dzajco_csr:
+  #   image: edsonmoreira/dzajco:csr
+  #   ports:
+  #     - "3009:3009"
+
+  # dzajco_ssr:
+  #   image: edsonmoreira/dzajco:ssr
+  #   ports:
+  #     - "3008:3008"
