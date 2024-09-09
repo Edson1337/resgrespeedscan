@@ -3,6 +3,7 @@
 chmod +x build.sh
 chmod +x start_apps.sh
 chmod +x stop_apps.sh
+chmod +x evaluator_env.sh
 
 mkdir -p projects
 
@@ -11,6 +12,7 @@ cd web_performance_evaluator_tool
 python3 -m venv env
 chmod +x sitespeed_executer_ssr.sh
 chmod +x sitespeed_executer_csr.sh
+chmod +x select_project.sh
 cd ..
 
 chmod +x start_evaluator.sh

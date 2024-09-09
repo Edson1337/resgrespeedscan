@@ -3,6 +3,12 @@
 sudo apt-get update
 sudo apt-get install -y jq
 
+source evaluator_env.sh
+
+cd web_performance_evaluator_tool
+pip3 install -r requirements.txt
+cd ..
+
 docker pull sitespeedio/sitespeed.io:34.9.0
 
 docker pull edsonmoreira/anime_vault:csr
