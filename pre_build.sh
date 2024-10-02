@@ -1,21 +1,24 @@
 #!/bin/bash
 
 chmod +x build.sh
-chmod +x start_apps.sh
-chmod +x stop_apps.sh
 chmod +x evaluator_env.sh
+chmod +x start_evaluator.sh
 
 mkdir -p projects
 
 git clone https://github.com/Edson1337/web_performance_evaluator_tool.git
 cd web_performance_evaluator_tool
 python3 -m venv env
-chmod +x sitespeed_executer_ssr.sh
-chmod +x sitespeed_executer_csr.sh
+cd scripts
+chmod +x start_apps.sh
+chmod +x stop_apps.sh
+chmod +x sitespeed_executer_baseline.sh
+chmod +x sitespeed_executer_comparative.sh
 chmod +x select_project.sh
-cd ..
+chmod +x create_project.sh
+chmod +x build_docker_image.sh
+cd ../..
 
-chmod +x start_evaluator.sh
 
 mkdir -p projects/anime_vault
 cd projects/anime_vault
