@@ -12,6 +12,7 @@ python3 -m venv env
 cd scripts
 chmod +x start_apps.sh
 chmod +x stop_apps.sh
+chmod +x stop_all_apps.sh
 chmod +x sitespeed_executer_baseline.sh
 chmod +x sitespeed_executer_comparative.sh
 chmod +x select_project.sh
